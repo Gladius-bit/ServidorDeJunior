@@ -28,7 +28,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.5); /* Overlay oscuro para mejorar contraste */
+    background: rgba(0, 0, 0, 0); /* Overlay oscuro para mejorar contraste */
     z-index: -1; /* Asegura que el overlay no tape los elementos */
 }
 
@@ -103,7 +103,7 @@ body::before {
     border-radius: 50%; /* Imagen circular */
     object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
     border: 5px solid rgb(112, 0, 0); /* Borde alrededor de la imagen */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* Sombra sutil alrededor de la imagen */
+    box-shadow: none; /* Sombra sutil alrededor de la imagen */
     transition: transform 0.3s ease; /* Animación de transformación */
 }
 
@@ -118,7 +118,7 @@ body::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background: rgba(0, 0, 0, 0.3); /* Capa oscura encima de la imagen */
+    background: rgba(0, 0, 0, 0); /* Capa oscura encima de la imagen */
     border-radius: 50%;
     z-index: -1; /* Asegura que la capa no tape la imagen */
 }
